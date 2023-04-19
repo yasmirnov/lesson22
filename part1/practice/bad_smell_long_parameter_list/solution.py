@@ -5,6 +5,7 @@ class Unit:
         pass
 
     def move(self, direction):
+
         speed = self._get_speed()
 
         if direction == 'UP':
